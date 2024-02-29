@@ -39,14 +39,19 @@ img{
     color: black;
 }
 #btn2{
+    padding: 20px;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
     text-decoration: none;
-    font-size: 24px;
-    color: black;
-    margin-top: 4px;
-    border: .25px white solid;
-    border-radius: 41px;
-    padding: 3px;
+    border: 1px solid white;
+    border-radius: 30px;
 }
+#btn2:hover {
+    padding: 30px; 
+    font-size: 30px; 
+}
+
 #pg1{
     background-color: rgb(252, 207, 149);
     height: 90vh;
